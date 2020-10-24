@@ -11,5 +11,5 @@ Pemahaman bahas R meliputi:
 - Pengulangan
 - packages
 
-Akan memudahkan pemahaman sintaks yang tersedia.
+Akan memudahkan pemahaman sintaks di atas.
 HappyCode ^_^
