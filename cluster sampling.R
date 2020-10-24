@@ -1,3 +1,8 @@
+  #install.packages("dplyr") 
+  #install.packages("tidyr")
+  library(dplyr)
+  library(tidyr)
+
   set.seed(10) #mengunci bilangan acak agar muncul konsisten
   dfk = data.frame(matrix(ncol = 100, nrow = 100)) #membuat data frame kosong dengan dimensi 100x100
   
