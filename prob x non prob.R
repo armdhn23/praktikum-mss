@@ -9,7 +9,7 @@ sampel50
 
 data_50_sampel <- data_populasi[c(sampel50)]
 
-mean(data_50_sampel)
+rata_rata50 <- mean(data_50_sampel)
 hist(data_50_sampel)
 
 #mengambil 75 sampel dengan pengembalian
@@ -18,10 +18,13 @@ sampel75
 
 data_75_sampel <- data_populasi[c(sampel75)]
 
-mean(data_75_sampel)
+rata_rata75 <- mean(data_75_sampel)
 hist(data_75_sampel)
 
 # silahkan ulangi untuk sampel 100, 125, 150, 200
+
+##hist
+hist(c(rata_rata50, rata_rata75), main = "Histogram", xlab = "Rata-rata") ## masukkan nilai rata-rata yang lain
 
 ## non probability
 #mengambil 50 data pertama
